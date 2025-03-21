@@ -3,6 +3,7 @@
 ## About
 
 This repository contains materials related to the Computer Systems course. It includes reports, source code, and other resources for understanding computer architecture and real number representation.
+Report template based on [HynDuf](https://github.com/HynDuf) [Graduation-Thesis-BsC-UET-2024](https://github.com/HynDuf/Graduation-Thesis-BsC-UET-2024).
 
 ## Contents
 
