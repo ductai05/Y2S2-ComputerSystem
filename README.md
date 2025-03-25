@@ -12,6 +12,13 @@ Report template based on [HynDuf](https://github.com/HynDuf) [Graduation-Thesis-
     *   `src/`: Source files for the report, written in Typst.
     *   `ref.bib`: Bibliography file for the report.
     *   `main.typ`: Main Typst file to compile the report.
+
+*   `report2/`: Contains report on: Overflow, underflow; Rounding; NaN; Quiet NaN and Signaling NaN; Real number operations.
+    *   `font-times-new-roman/`: Includes font files used in the report.
+    *   `src/`: Source files for the report, written in Typst.
+    *   `ref.bib`: Bibliography file for the report.
+    *   `main.typ`: Main Typst file to compile the report.
+
 *   `LICENSE`: GNU General Public License.
 *   `README.md`: This file.
 
