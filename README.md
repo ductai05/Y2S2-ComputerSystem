@@ -9,6 +9,7 @@ Report template based on [HynDuf](https://github.com/HynDuf) [Graduation-Thesis-
 
 *   `report1/`: Contains the first report on real number representation in computers.
 *   `report2/`: Contains report on: Overflow, underflow; Rounding; NaN; Quiet NaN and Signaling NaN; Real number operations.
+*   `report3/`: Contains report on: CPU @ PC, Server, Mobile, Embedded system.
 *   `report<X>/`: include:
     *   `font-times-new-roman/`: Includes font files used in the report.
     *   `images/`: Includes images in report.
