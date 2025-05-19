@@ -1,0 +1,24 @@
+\newpage
+\section{Giới thiệu}
+
+\paragraph{}{\textbf{Bộ vi xử lý} \cite{ibm_cpu} (CPU - Central Processing Unit) là trái tim của hầu hết các thiết bị điện tử hiện đại, đóng vai trò xử lý thông tin và điều khiển hoạt động của toàn bộ hệ thống. Mặc dù có chung mục đích cơ bản, tổ chức bộ vi xử lý trong các loại thiết bị khác nhau như máy tính cá nhân (\textbf{PC}), máy chủ (\textbf{Server}), thiết bị di động (\textbf{Mobile}) và hệ thống nhúng (\textbf{Embedded System}) lại có những đặc điểm riêng biệt, được tối ưu hóa cho các yêu cầu và môi trường hoạt động cụ thể. Báo cáo này sẽ đi sâu tìm hiểu và so sánh tổ chức bộ vi xử lý trên bốn nền tảng này.}
+
+\paragraph{}{Trước khi đi vào chi tiết từng loại, cần hiểu rõ các thành phần cơ bản cấu thành một bộ vi xử lý điển hình:}
+
+\begin{itemize}
+    \item \textbf{Khối Điều khiển (Control Unit - CU)}: Có nhiệm vụ giải mã các lệnh từ bộ nhớ và điều khiển hoạt động của các thành phần khác trong CPU, đồng bộ hóa các hoạt động theo xung nhịp của hệ thống. Khối điều khiển chỉ đạo luồng dữ liệu giữa CPU và các thành phần khác.
+    \item \textbf{Khối Số học và Logic (Arithmetic Logic Unit - ALU)}: Thực hiện các phép toán số học (cộng, trừ, nhân, chia) và các phép toán logic (AND, OR, NOT) trên dữ liệu được lấy từ thanh ghi hoặc bộ nhớ.
+    \item \textbf{Thanh ghi (Registers)}: Là các vùng nhớ tốc độ cao, dung lượng nhỏ nằm bên trong CPU. Chúng được sử dụng để lưu trữ tạm thời dữ liệu đang được xử lý, lệnh hiện tại, địa chỉ ô nhớ và các thông tin điều khiển quan trọng, giúp tăng tốc độ truy cập và xử lý.
+    \item \textbf{Bộ nhớ đệm (Cache)}: Là một bộ nhớ trung gian tốc độ cao giữa CPU và bộ nhớ chính (RAM). Cache lưu trữ các dữ liệu và lệnh thường xuyên được sử dụng, giúp giảm thời gian chờ đợi của CPU khi truy xuất dữ liệu từ RAM chậm hơn. Cache thường được phân thành nhiều cấp (L1, L2, L3) với tốc độ và dung lượng khác nhau.
+    \item \textbf{Bus nội bộ (Internal Bus)}: Hệ thống các đường dẫn tín hiệu kết nối các thành phần bên trong CPU với nhau, cho phép truyền tải dữ liệu và tín hiệu điều khiển.
+\end{itemize}
+
+\paragraph{}{Nguyên lý hoạt động cơ bản của CPU thường tuân theo chu trình "Tìm nạp - Giải mã - Thực thi":}
+
+\begin{enumerate}
+    \item \textbf{Tìm nạp (Fetch)}: CPU lấy lệnh từ bộ nhớ (thường là từ RAM hoặc cache).
+    \item \textbf{Giải mã (Decode)}: Khối điều khiển giải mã lệnh để xác định thao tác cần thực hiện.
+    \item \textbf{Thực thi (Execute)}: Khối ALU thực thi lệnh, có thể liên quan đến việc đọc/ghi dữ liệu từ/vào thanh ghi hoặc bộ nhớ. Kết quả thường được lưu vào thanh ghi.
+\end{enumerate}
+
+\pagebreak
